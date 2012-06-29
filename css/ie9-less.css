@@ -1,0 +1,87 @@
+section, nav ul {
+  max-width: 960px;
+  margin: 0 auto; }
+
+nav, footer {
+  background: #111111 url(../img/noise.png) repeat 0 0; }
+
+nav ul {
+  background: none; }
+
+.current a:after {
+  width: 60%;
+  left: 20%; }
+
+#home img {
+  max-width: 385px;
+  margin: 28px auto 48px; }
+
+h2 {
+  font-size: 1.4em;
+  margin-bottom: 1.4em; }
+
+#home .sell {
+  max-width: 45%;
+  min-width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 1%; }
+
+#home h1 {
+  font-size: 105%; }
+
+#our-work .main {
+  max-width: 87%;
+  margin: 0 auto; }
+
+#our-work hgroup + p, #about-us hgroup + p, #plans-prices hgroup + p, #contact-us hgroup + p {
+  max-width: 80%;
+  margin: 1em auto; }
+
+#our-work figure {
+  margin: .5em 1.7%; }
+
+#our-work figcaption {
+  background: transparent url(../img/bg-transparent.png) repeat 0 0;
+  font-size: .9em; }
+
+#our-work figcaption p {
+  margin: .3em 0 1em; }
+
+#about-us article {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top; }
+
+#about-us article header {
+  width: 100%; }
+
+#about-us article p {
+  width: 100%; }
+
+#plans-prices article .plan {
+  font-size: 95%; }
+
+#plans-prices li.discount a {
+  background: url(../img/arrow-right.png) no-repeat 95% 50%; }
+
+#plans-prices li.discount a:hover, #plans-prices li.discount a:focus {
+  background: url(../img/arrow-right-white.png) no-repeat 95% 50%; }
+
+.discount {
+  top: 1.5em;
+  right: 0em; }
+
+.extra {
+  position: static; }
+
+footer {
+  position: relative; }
+
+footer form {
+  padding-bottom: 2em; }
+
+footer .response {
+  position: absolute;
+  bottom: 2.6em;
+  width: 100%; }

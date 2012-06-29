@@ -1,0 +1,299 @@
+// Weird IE padding problem at the bottom of the form???!!!
+footer form {
+	padding-bottom:2em !important;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+	// section:before {
+	// 	$d1:300px;
+	// 	width:$d1;
+	// 	height:$d1;
+	// 	@include rounded($d1);
+	// 	top:-60px;
+	// 	left:-120px;
+	// }
+	// section:after {
+	// 	$d1:250px;
+	// 	width:$d1;
+	// 	height:$d1;
+	// 	@include rounded($d1);
+	// 	top:150px;
+	// 	right:-120px;
+	// }
+	#home img {
+		max-width:70%;
+	}
+	#extras p, #free p, #extras p + ul {
+		padding-left:16%;
+	}
+	footer input {
+		width:40%;
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+	#home img {
+		max-width:90%;
+		margin:24px auto;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px) {
+	#home img {
+		max-width:50%;
+		margin:48px auto;
+	}
+	#home .sell {
+		max-width:45%;
+		display:inline-block;
+		vertical-align:top;
+	}
+	#home h1 {
+		font-size:105%;
+	}
+	// .main:after {
+	// 	$d1:200px;
+	// 	content:'';
+	// 	width:$d1;
+	// 	height:$d1;
+	// 	@include rounded($d1);
+	// 	position:fixed;
+	// 	bottom:-20px;
+	// 	left:30px;
+	// 	background:$p2;
+	// 	z-index:-1;
+	// 	opacity:.15;
+	// }
+	#our-work hgroup + p, #about-us hgroup + p, #plans-prices hgroup + p, #contact-us hgroup + p {
+		max-width:80%;
+		margin:1em auto;
+	}
+	#about-us article {
+		display:inline-block;
+		width:60%;
+		vertical-align:top;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (orientation : landscape) {
+	// section:before {
+	// 	$d1:600px;
+	// 	width:$d1;
+	// 	height:$d1;
+	// 	@include rounded($d1);
+	// 	top:-224px;
+	// 	left:-250px;
+	// }
+	// section:after {
+	// 	$d1:450px;
+	// 	width:$d1;
+	// 	height:$d1;
+	// 	@include rounded($d1);
+	// 	top:280px;
+	// 	right:-180px;
+	// }
+	#home img {
+		max-width:42%;
+	}
+	#plans-prices article {
+		max-width:450px;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 481px) {
+	#our-work .main, #plans-prices .main {
+		max-width:95%;
+		margin:0 auto;
+	}
+	.extra {
+		position:static;
+	}
+}
+@media only screen
+and (min-width : 1024px) {
+	#about-us article header {
+		width:80%;
+		margin:0 auto;
+		display:block;
+	}
+}
+@media only screen
+and (min-width : 554px) {
+	#home img {
+		max-width:385px;
+		margin:28px auto 48px;
+	}
+	h2 {
+		font-size:1.1em;
+	}
+	#home .sell {
+		max-width:45%;
+		display:inline-block;
+		vertical-align:top;
+	}
+	#home h1 {
+		font-size:105%;
+	}
+	#our-work .main {
+		max-width:87%;
+	}
+	#our-work hgroup + p, #about-us hgroup + p, #plans-prices hgroup + p, #contact-us hgroup + p {
+		max-width:80%;
+		margin:1em auto;
+	}
+	#our-work figure {
+		margin:.5em 1.7%;
+	}
+	#about-us article {
+		display:inline-block;
+		width:60%;
+		vertical-align:top;
+	}
+	#about-us article header {
+		width:100%;
+	}
+	#about-us article p {
+		width:100%;
+	}
+	#plans-prices article .plan {
+		font-size:95%;
+	}
+	.discount {
+		top:1.5em;
+		right:0em;
+	}
+	.extra {
+		position:static;
+	}
+}
+@media only screen
+and (min-width : 800px) {
+	#about-us article p {
+		width:85%;
+		margin:1em auto;
+	}
+	.show-me img {
+		display:none;
+	}
+}
+@media only screen
+and (min-width : 960px) {
+  h2 {
+    font-size:1.4em;
+    margin-bottom:1.4em;
+  }
+	$nav-channel:1.3em;
+	nav {
+		width:15%;
+		height:100%;
+		border-right:1px dotted #333;
+		border-bottom:none;
+		background:transparent url(../img/noise.png) repeat 0 0;
+	}
+	.show-me img {
+		display:block;
+		position:absolute;
+		top:4%;
+		right:1%;
+		width:100%;
+		max-width:12em;
+	}
+	nav ul {
+		margin-top:12em;
+		border-top:1px dotted #222;
+	}
+	nav li {
+		display:block;
+		clear:both;
+		width:100%;
+		text-align:left;
+		margin-bottom:1px;
+		border-right:none;
+		border-bottom:1px dotted #222;
+	}
+	nav a {
+		padding-right:$nav-channel;
+		text-align:right;
+		width:auto;
+	}
+	.current a:after {
+		bottom:45%;
+		left:98.5%;
+	}
+	section {
+		width:70%;
+		margin:0 15% 0 15%;
+		height:100%;
+	}
+	#our-work figcaption {
+		font-size:105%;
+	}
+	footer {
+		width:15%;
+		height:100%;
+		float:right;
+		position:fixed;
+		top:0;
+		left:85%;
+		border-top:none;
+		border-left:1px dotted #333;
+		background:#111 url(../img/noise.png) repeat 0 0;
+	}
+	footer ul {
+		margin-top:15em;
+		border-top:1px dotted #222;
+		padding-top:0;
+	}
+	footer li {
+		display:block;
+		text-align:left;
+		border-bottom:1px dotted #222;
+	}
+	footer li a {
+		display:block;
+		width:100%;
+		padding:$nav-channel 0 2.6em 44px;
+		background-position:1.2em 50% !important;
+	}
+	footer form {
+		padding:2em 1.2em;
+		position:absolute;
+		bottom:0;
+	}
+	footer input {
+		float:left;
+		width:84%;
+		margin:0 0 .6em;
+	}
+	.no-spam {
+		float:left;
+		text-align:left;
+		position:static;
+		font-size:80%;
+		line-height:1.4em;
+		padding-top:1em;
+	}
+	.response {
+		margin-bottom:.8em;
+		line-height:1.4em;
+	}
+}
