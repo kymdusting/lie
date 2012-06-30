@@ -19,7 +19,7 @@ License: http://creativecommons.org/licenses/MIT/
 <head>
 <meta charset="utf-8">
 
-<title>Light Is Everything &ndash; We make websites. Simple. - Canberra, Geelong &amp; Torquay</title>
+<title>Light Is Everything &ndash; We make websites. Simple. // Canberra // Geelong // Torquay</title>
 <meta name="description" content="Light Is Everything design and develop websites, mostly. We can also help with hosting, content management systems, email marketing campaigns, mobile, e-commerce, social media and web applications. Primarily servicing Canberra, Geelong and Torquay.">
 <meta name="author" content="Light Is Everything">
 <meta content="web design, web application design, UI, interface design, interaction design, software application design, web tools, usability, functionality design, extranet design, intranet design, dashboard design, portal design, logical, intuitive, dhtml, hosting, content management systems, email marketing campaigns, mobile, e-commerce, social media, mobile applications, handheld workforce automation application, branding, interaction design, content strategy, coding, usability, accessiblity, progressive enhancement, access-oriented, front-end coding, standards-compliant HTML and CSS, jQuery, jQuery UI, information architecture, rapid prototyping, data visualization, Kym Dusting, Brett Wilson, Canberra, Geelong, Torquay" name="keywords">
