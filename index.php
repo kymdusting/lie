@@ -342,8 +342,8 @@ License: http://creativecommons.org/licenses/MIT/
 
 <!-- Scripts -->
 <script src="js/libs/jquery-1.6.2.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/script.js"></script>
+<script src="js/plugins-ck.js"></script>
+<script src="js/script-ck.js"></script>
 <script src="js/mylibs/helper.js"></script>
 
 <!--[if (lt IE 9) & (!IEMobile)]>

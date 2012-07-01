@@ -19,11 +19,27 @@ $(document).ready(function(){
 		$('input, textarea').placeholder();
 	}
 
-	//reset any user feedback
+	// reset any user feedback
 	$('.response').html('');
 
+	// set defaults for page display based on #
+	$('#home,#about-us,#contact-us,#our-work,#plans-prices').hide();
+	var initial = window.location.hash.replace("#", "");
+	console.log(initial);
+	$("#" + (initial || "home")).show();
+	if(initial != '') {
+		$('nav li').removeClass('current');
+		$('nav a[href="#' + initial + '"]').parent('li').addClass('current');
+		if (!$('nav').hasClass('show-me')) {
+			$('nav').addClass('show-me');
+			$('nav img').css('opacity','0');
+			$('nav img').animate({
+		    opacity: 1,
+		  }, 1000 );
+		}
+	}
+
 	// navigation control
-	$('#about-us,#contact-us,#our-work,#plans-prices').hide();
 	$('nav a, section a').bind({
   		click: function() {
   			//reset form inputs
