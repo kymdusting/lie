@@ -50,13 +50,13 @@ License: http://creativecommons.org/licenses/MIT/
 <script src="js/libs/modernizr-2.0.6.min.js"></script>
 
 <!-- For iPhone 4 -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/h/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
 <!-- For iPad 1-->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/m/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
 <!-- For iPhone 3G, iPod Touch and Android -->
-<link rel="apple-touch-icon-precomposed" href="img/l/apple-touch-icon-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png">
 <!-- For Nokia -->
-<link rel="shortcut icon" href="img/l/apple-touch-icon.png">
+<link rel="shortcut icon" href="apple-touch-icon.png">
 <!-- For everything else -->
 <link rel="shortcut icon" href="/favicon.ico">
 
