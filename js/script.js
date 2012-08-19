@@ -111,7 +111,7 @@ $(document).ready(function(){
 			success: function(msg) {
 				$('#contact-us .response').html(msg);
 				if(msg.substr(0,5) === 'Error') {
-					$('footer input[type="submit"]').val('Try again!');
+					$('#contact-us input[type="submit"]').val('Try again!');
 				} else {
   					$('#contact-us input, #contact-us textarea').val('');
 					$('#contact-us input[type="submit"]').val('All done!');
