@@ -2,9 +2,7 @@
 ++++++++++++++++++++++*/
 /* Smartphones (portrait and landscape) ----------- */
 /* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 321px)
-and (max-device-width : 480px) {
+@media only screen and (min-width: 321px) and (max-device-width: 480px) {
   #home img {
     max-width: 70%; }
 
@@ -14,15 +12,12 @@ and (max-device-width : 480px) {
   footer input {
     width: 40%; } }
 /* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 320px) {
+@media only screen and (max-width: 320px) {
   #home img {
     max-width: 90%;
     margin: 24px auto; } }
 /* iPads (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   #home img {
     max-width: 50%;
     margin: 48px auto; }
@@ -44,39 +39,29 @@ and (max-device-width : 1024px) {
     width: 60%;
     vertical-align: top; } }
 /* iPads (landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   #home img {
     max-width: 42%; }
 
   #plans-prices article {
     max-width: 450px; } }
 /* iPads (portrait) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* Styles */ }
 /* Desktops and laptops ----------- */
-@media only screen
-and (min-width : 481px) {
+@media only screen and (min-width: 481px) {
   #our-work .main, #plans-prices .main {
     max-width: 95%;
     margin: 0 auto; }
 
   .extra {
     position: static; } }
-@media only screen
-and (min-device-width : 1024px) {
+@media only screen and (min-device-width: 1024px) {
   #about-us article header {
     width: 80%;
     margin: 0 auto;
     display: block; } }
-@media only screen
-and (min-width : 554px)
-and (min-device-width : 1024px) {
+@media only screen and (min-width: 554px) and (min-device-width: 1024px) {
   #home img {
     max-width: 385px;
     margin: 28px auto 48px; }
@@ -122,18 +107,14 @@ and (min-device-width : 1024px) {
 
   .extra {
     position: static; } }
-@media only screen
-and (min-width : 800px)
-and (min-device-width : 1024px) {
+@media only screen and (min-width: 800px) and (min-device-width: 1024px) {
   #about-us article p {
     width: 85%;
     margin: 1em auto; }
 
   .show-me img {
     display: none; } }
-@media only screen
-and (min-width : 960px)
-and (min-device-width : 1024px) {
+@media only screen and (min-width: 960px) and (min-device-width: 1024px) {
   h2 {
     font-size: 1.4em;
     margin-bottom: 1.4em; }
@@ -282,11 +263,10 @@ and (min-device-width : 1024px) {
     margin-bottom: .8em;
     line-height: 1.4em; } }
 /* Large screens ----------- */
-@media only screen
-and (min-width : 1824px) {
+@media only screen and (min-width: 1824px) {
   /* Styles */ }
 /* iPhone 4 ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* Styles */ }
 @media print {
   * {

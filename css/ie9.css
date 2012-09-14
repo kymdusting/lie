@@ -2,8 +2,7 @@ footer form {
   padding-bottom: 2em !important; }
 
 /* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 321px) {
+@media only screen and (min-width: 321px) {
   #home img {
     max-width: 70%; }
 
@@ -13,14 +12,12 @@ and (min-width : 321px) {
   footer input {
     width: 40%; } }
 /* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 320px) {
+@media only screen and (max-width: 320px) {
   #home img {
     max-width: 90%;
     margin: 24px auto; } }
 /* iPads (portrait and landscape) ----------- */
-@media only screen
-and (min-width : 768px) {
+@media only screen and (min-width: 768px) {
   #home img {
     max-width: 50%;
     margin: 48px auto; }
@@ -42,37 +39,29 @@ and (min-width : 768px) {
     width: 60%;
     vertical-align: top; } }
 /* iPads (landscape) ----------- */
-@media only screen
-and (min-width : 768px)
-and (orientation : landscape) {
+@media only screen and (min-width: 768px) and (orientation: landscape) {
   #home img {
     max-width: 42%; }
 
   #plans-prices article {
     max-width: 450px; } }
 /* iPads (portrait) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* Styles */ }
 /* Desktops and laptops ----------- */
-@media only screen
-and (min-width : 481px) {
+@media only screen and (min-width: 481px) {
   #our-work .main, #plans-prices .main {
     max-width: 95%;
     margin: 0 auto; }
 
   .extra {
     position: static; } }
-@media only screen
-and (min-width : 1024px) {
+@media only screen and (min-width: 1024px) {
   #about-us article header {
     width: 80%;
     margin: 0 auto;
     display: block; } }
-@media only screen
-and (min-width : 554px) {
+@media only screen and (min-width: 554px) {
   #home img {
     max-width: 385px;
     margin: 28px auto 48px; }
@@ -118,16 +107,14 @@ and (min-width : 554px) {
 
   .extra {
     position: static; } }
-@media only screen
-and (min-width : 800px) {
+@media only screen and (min-width: 800px) {
   #about-us article p {
     width: 85%;
     margin: 1em auto; }
 
   .show-me img {
     display: none; } }
-@media only screen
-and (min-width : 960px) {
+@media only screen and (min-width: 960px) {
   h2 {
     font-size: 1.4em;
     margin-bottom: 1.4em; }

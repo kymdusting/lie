@@ -627,10 +627,14 @@ h1 em {
 	width:70%;
 	max-width:22em;
 }
+.full-width {
+	width: 100%;
+}
 #contact-us input[type='submit'] {
-	margin:.4em 40% 1em;
+	margin:0 auto;
 	background:$highlight;
-	width:auto;
+	display: inline-block;
+	width: auto;
 }
 
 /* footer

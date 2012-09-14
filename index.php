@@ -311,7 +311,9 @@ License: http://creativecommons.org/licenses/MIT/
           <input id="phone" name="phone" type="tel" placeholder="If you'd prefer we give you a call" />
           <label for="text">Wassup?</label>
           <textarea id="text" name="text" required x-moz-errormessage="please provide some text" placeholder="What's the first thing that comes into your mind..."></textarea>
-          <input type="submit" name="submit" value="Send away!" />
+          <div class="full-width">
+            <input type="submit" name="submit" value="Send away!" />
+          </div>
         </form>
         <div class="response" aria-live="polite">
           <? require_once('site-handlers/contact-us.php'); if($_GET['submit']){ echo contactUs(); } ?>
