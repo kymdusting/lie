@@ -987,3 +987,327 @@ input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus, textarea
 .response {
   color: #d3f4ff;
   font-size: .8em; }
+
+/* Media queries
+++++++++++++++++++++++*/
+/* Smartphones (portrait and landscape) ----------- */
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) and (max-device-width: 480px) {
+  #home img {
+    max-width: 70%; }
+
+  #extras p, #free p, #extras p + ul {
+    padding-left: 16%; }
+
+  footer input {
+    width: 40%; } }
+/*/mediaquery*/
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  #home img {
+    max-width: 90%;
+    margin: 24px auto; } }
+/*/mediaquery*/
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #home img {
+    max-width: 50%;
+    margin: 48px auto; }
+
+  #home .sell {
+    max-width: 45%;
+    display: inline-block;
+    vertical-align: top; }
+
+  #home h1 {
+    font-size: 105%; }
+
+  #our-work hgroup + p, #about-us hgroup + p, #plans-prices hgroup + p, #contact-us hgroup + p {
+    max-width: 80%;
+    margin: 1em auto; }
+
+  #about-us article {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top; } }
+/*/mediaquery*/
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  #home img {
+    max-width: 42%; }
+
+  #plans-prices article {
+    max-width: 450px; } }
+/*/mediaquery*/
+/* iPads (portrait) ----------- */
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 481px) {
+  #our-work .main, #plans-prices .main {
+    max-width: 95%;
+    margin: 0 auto; }
+
+  .extra {
+    position: static; } }
+/*/mediaquery*/
+@media only screen and (min-device-width: 1024px) {
+  #about-us article header {
+    width: 80%;
+    margin: 0 auto;
+    display: block; } }
+/*/mediaquery*/
+@media only screen and (min-width: 554px) and (min-device-width: 1024px) {
+  #home img {
+    max-width: 385px;
+    margin: 28px auto 48px; }
+
+  h2 {
+    font-size: 1.1em; }
+
+  #home .sell {
+    max-width: 45%;
+    display: inline-block;
+    vertical-align: top; }
+
+  #home h1 {
+    font-size: 105%; }
+
+  #our-work .main {
+    max-width: 87%; }
+
+  #our-work hgroup + p, #about-us hgroup + p, #plans-prices hgroup + p, #contact-us hgroup + p {
+    max-width: 80%;
+    margin: 1em auto; }
+
+  #our-work figure {
+    margin: .5em 1.7%; }
+
+  #about-us article {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top; }
+
+  #about-us article header {
+    width: 100%; }
+
+  #about-us article p {
+    width: 100%; }
+
+  #plans-prices article .plan {
+    font-size: 95%; }
+
+  .discount {
+    top: 1.5em;
+    right: 0em; }
+
+  .extra {
+    position: static; } }
+/*/mediaquery*/
+@media only screen and (min-width: 800px) and (min-device-width: 1024px) {
+  #about-us article p {
+    width: 85%;
+    margin: 1em auto; }
+
+  .show-me img {
+    display: none; } }
+/*/mediaquery*/
+@media only screen and (min-width: 960px) and (min-device-width: 1024px) {
+  h2 {
+    font-size: 1.4em;
+    margin-bottom: 1.4em; }
+
+  nav {
+    width: 15%;
+    height: 100%;
+    border-right: 1px dotted #333;
+    border-bottom: none;
+    background: rgba(0, 0, 0, 0.3) url(../img/noise.png) repeat 0 0;
+    -webkit-box-shadow: rgba(211, 244, 255, 0.1) 0 0 25px 6px;
+    -moz-box-shadow: rgba(211, 244, 255, 0.1) 0 0 25px 6px;
+    box-shadow: rgba(211, 244, 255, 0.1) 0 0 25px 6px; }
+
+  .show-me img {
+    display: block;
+    position: absolute;
+    top: 4%;
+    right: 1%;
+    width: 100%;
+    height: auto;
+    max-width: 12em; }
+
+  nav ul {
+    margin-top: 12em;
+    border-top: 1px dotted #222; }
+
+  nav li {
+    display: block;
+    clear: both;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1px;
+    border-right: none;
+    border-bottom: 1px dotted #222; }
+
+  nav a {
+    padding-right: 1.3em;
+    text-align: right;
+    width: auto; }
+
+  .current a:after {
+    bottom: 45%;
+    left: 98.5%; }
+
+  .current a, nav a:hover, nav a:focus {
+    background-image: -webkit-radial-gradient(100% 50%, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0));
+    background-image: -moz-radial-gradient(100% 50%, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0));
+    background-image: -o-radial-gradient(100% 50%, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0));
+    background-image: -ms-radial-gradient(100% 50%, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0));
+    background-image: radial-gradient(100% 50%, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0)); }
+
+  section {
+    width: 70%;
+    margin: 0 15% 0 15%;
+    height: 100%; }
+
+  #our-work figcaption {
+    font-size: 105%; }
+
+  footer {
+    width: 15%;
+    height: 100%;
+    float: right;
+    position: fixed;
+    top: 0;
+    left: 85%;
+    border-top: none;
+    border-left: 1px dotted #333;
+    background: rgba(0, 0, 0, 0.3) url(../img/noise.png) repeat 0 0;
+    -webkit-box-shadow: rgba(211, 244, 255, 0.1) 0 0 25px 6px;
+    -moz-box-shadow: rgba(211, 244, 255, 0.1) 0 0 25px 6px;
+    box-shadow: rgba(211, 244, 255, 0.1) 0 0 25px 6px; }
+
+  footer ul {
+    margin-top: 15em;
+    border-top: 1px dotted #222;
+    padding-top: 0; }
+
+  footer li {
+    display: block;
+    text-align: left;
+    border-bottom: 1px dotted #222; }
+
+  footer li a {
+    display: block;
+    width: 100%;
+    padding: 1.3em 0 2.6em 44px;
+    background-position: 0 50% !important; }
+
+  footer .phone a {
+    background-image: none; }
+
+  footer .email a {
+    background-image: none; }
+
+  footer .twitter a {
+    background-image: none; }
+
+  footer .facebook a {
+    background-image: none; }
+
+  footer .skype a {
+    background-image: none; }
+
+  footer li a:hover, footer li a:focus {
+    background-image: -webkit-radial-gradient(0% 50%, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0));
+    background-image: -moz-radial-gradient(0% 50%, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0));
+    background-image: -o-radial-gradient(0% 50%, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0));
+    background-image: -ms-radial-gradient(0% 50%, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0));
+    background-image: radial-gradient(0% 50%, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0)); }
+
+  footer .phone {
+    background: transparent url(../img/footer-phone.png) no-repeat 9% 50%; }
+
+  footer .email {
+    background: transparent url(../img/footer-email.png) no-repeat 9% 50%; }
+
+  footer .twitter {
+    background: transparent url(../img/footer-twitter.png) no-repeat 9% 50%; }
+
+  footer .facebook {
+    background: transparent url(../img/footer-facebook.png) no-repeat 9% 50%; }
+
+  footer .skype {
+    background: transparent url(../img/footer-skype.png) no-repeat 9% 50%; }
+
+  footer form {
+    padding: 2em 1.2em;
+    position: absolute;
+    bottom: 0; }
+
+  footer input {
+    float: left;
+    width: 84%;
+    margin: 0 0 .6em; }
+
+  .no-spam {
+    float: left;
+    text-align: left;
+    position: static;
+    font-size: 80%;
+    line-height: 1.4em;
+    padding-top: 1em; }
+
+  .response {
+    margin-bottom: .8em;
+    line-height: 1.4em; } }
+/*/mediaquery*/
+/* Large screens ----------- */
+/* iPhone 4 ----------- */
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important; }
+
+  @page {
+    margin: 0.5cm; }
+
+  h2, h3 {
+    orphans: 3;
+    widows: 3;
+    page-break-after: avoid; }
+
+  p {
+    orphans: 3;
+    widows: 3; }
+
+  pre, blockquote {
+    border: 1px solid #808080;
+    page-break-inside: avoid; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  a, a:visited {
+    color: #000000 !important;
+    text-decoration: underline; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: ""; }
+
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group; }
+
+  tr {
+    page-break-inside: avoid; }
+
+  .ir a:after {
+    content: ""; } }

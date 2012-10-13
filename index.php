@@ -31,12 +31,6 @@ License: http://creativecommons.org/licenses/MIT/
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="css/style.css">
-<!--[if !IE]>-->
-<link rel="stylesheet" href="css/media-queries.css">
-<!--<![endif]-->
-<!--[if IE 9]>
-<link rel="stylesheet" href="css/ie9.css">
-<![endif]-->
 <!--[if (lt IE 9)]>
 <link rel="stylesheet" href="css/ie9-less.css">
 <![endif]-->

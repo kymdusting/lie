@@ -8,13 +8,30 @@ nav, footer {
 nav ul {
 	background:none;
 }
-.current a:after {
-	width:60%;
-	left:20%;
+@media only screen
+and (max-width : 960px) {
+	.current a:after {
+		width:60%;
+		left:20%;
+	}
 }
-#home img {
-	max-width:385px;
-	margin:28px auto 48px;
+@media only screen
+and (min-width : 960px) {
+	.current a:after {
+		width:60%;
+		right:20%;
+		height: 100%;
+		top:0;
+	}
+	  .show-me img {
+	    display:block;
+	    position:absolute;
+	    top:4%;
+	    right:1%;
+	    width:100%;
+	    height: auto;
+	    max-width:12em;
+	  }
 }
 h2 {
 font-size:1.4em;
@@ -26,9 +43,6 @@ margin-bottom:1.4em;
 	display:inline-block;
 	vertical-align:top;
 	margin:0 1%;
-}
-#home h1 {
-	font-size:105%;
 }
 #our-work .main {
 	max-width:87%;
@@ -72,9 +86,6 @@ margin-bottom:1.4em;
 	top:1.5em;
 	right:0em;
 }
-.extra {
-	position:static;
-}
 // Weird IE padding problem at the bottom of the form???!!!
 footer {
 	position:relative;
@@ -87,3 +98,27 @@ footer .response {
 	bottom:2.6em;
 	width:100%;
 }
+.show-me img {
+	max-height: 140px;
+}
+
+
+@media only screen
+and (max-width : 554px) {
+  #home .sell {
+    max-width:95%;
+    min-width:95%;
+    clear: both;
+  }
+	.extra {
+		position:absolute;
+		top:0;
+		left:-9999px;
+	}
+  #home img {
+  	max-width: 70%;
+  }
+  #home h1 {
+  	font-size: .95em;
+  }
+}/*/mediaquery*/
