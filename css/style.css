@@ -876,7 +876,7 @@ h1 em {
   width: 100%;
   display: block; }
 
-#contact-us input, #contact-us textarea {
+#contact-us input, #contact-us textarea, #contact-us select {
   font-size: .8em;
   margin: .8em 0 1.8em;
   -webkit-border-radius: 0.3em;

@@ -305,6 +305,13 @@ License: http://creativecommons.org/licenses/MIT/
           <input id="phone" name="phone" type="tel" placeholder="If you'd prefer we give you a call" />
           <label for="text">Wassup?</label>
           <textarea id="text" name="text" required x-moz-errormessage="please provide some text" placeholder="What's the first thing that comes into your mind..."></textarea>
+          <label for="test">Just in case your a robot, what color is the sky?</label>
+          <select id="test" name="test" required x-moz-errormessage="please answer">
+            <option value="0">Please select</option>
+            <option value="1">Red</option>
+            <option value="2">Pink</option>
+            <option value="3">Blue</option>
+          </select>
           <div class="full-width">
             <input type="submit" name="submit" value="Send away!" />
           </div>

@@ -24,20 +24,23 @@ function contactUs(){
 		// An error ocurred, return error message
 		//return 'Error: ' . $api->errorMessage;
 	//}
+	if ($_GET['test'] == '3') {
+	    $to      = 'info@lightiseverything.com.au, kym@lightiseverything.com.au, brett@lightiseverything.com.au, kirsty@lightiseverything.com.au';
+	    $subject = 'Urgent : From lightiseverything.com.au';
+	    $stringData = "Name: " . $_GET['name'] . "\r\n";
+	    $stringData = $stringData . "Email: " . $_GET['contact-email'] . "\r\n";
+	    $stringData = $stringData . "Phone: " . $_GET['phone'] . "\r\n";
+	    $stringData = $stringData . "Message: " . $_GET['text'] . "\r\n";
+	    $headers = 'From: ' . $_GET['contact-email'] . " \r\n" .
+	        'Reply-To: ' . $_GET['contact-email'] . " \r\n" .
+	        'X-Mailer: PHP/' . phpversion();
 
-    $to      = 'info@lightiseverything.com.au, kym@lightiseverything.com.au, brett@lightiseverything.com.au, kirsty@lightiseverything.com.au';
-    $subject = 'Urgent : From lightiseverything.com.au';
-    $stringData = "Name: " . $_GET['name'] . "\r\n";
-    $stringData = $stringData . "Email: " . $_GET['contact-email'] . "\r\n";
-    $stringData = $stringData . "Phone: " . $_GET['phone'] . "\r\n";
-    $stringData = $stringData . "Message: " . $_GET['text'] . "\r\n";
-    $headers = 'From: ' . $_GET['contact-email'] . " \r\n" .
-        'Reply-To: ' . $_GET['contact-email'] . " \r\n" .
-        'X-Mailer: PHP/' . phpversion();
+	    mail($to, $subject, $stringData, $headers);
 
-    mail($to, $subject, $stringData, $headers);
-
-    return "Cheers! We'll get back to you in a flash.";
+	    return "Cheers! We'll get back to you in a flash.";
+	} else {
+		return "Error: you ain't no human!";
+	}
 
 }
 

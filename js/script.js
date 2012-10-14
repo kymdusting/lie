@@ -106,7 +106,8 @@ $(document).ready(function(){
 			data: 'ajax=true&name=' + escape($('#name').val()) +
 				  '&contact-email=' + escape($('#contact-email').val()) +
 				  '&phone=' + escape($('#phone').val()) +
-				  '&text=' + escape($('#text').val())
+				  '&text=' + escape($('#text').val()) +
+				  '&test=' + escape($('#test').val())
 				  ,
 			success: function(msg) {
 				$('#contact-us .response').html(msg);
