@@ -1,12 +1,7 @@
 <!doctype html>
 
 <!--
-320 and Up boilerplate extension
-Author: Andy Clarke (http://about.me/malarkey)
-Author: Keith Clark (http://twitter.com/keithclarkcouk)
-Version: 2
-URL: http://stuffandnonsense.co.uk/projects/320andup/
-License: http://creativecommons.org/licenses/MIT/
+Author: Kym Dusting (http://lightiseverything.com.au)
 -->
 
 <!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
